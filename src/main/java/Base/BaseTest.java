@@ -38,6 +38,8 @@ public class BaseTest {
 			
 			driver = new IOSDriver(new URI(prop.getProperty("appiumURL")).toURL(),option);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.terminateApp(prop.getProperty("bundleId"));
+			driver.activateApp(prop.getProperty("bundleId"));
 		}
 	}
 
