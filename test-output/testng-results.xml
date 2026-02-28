@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-28T15:33:10 IST" name="Suite" finished-at="2026-02-28T15:33:54 IST" duration-ms="43802">
+    <groups>
+    </groups>
+    <test started-at="2026-02-28T15:33:10 IST" name="Test" finished-at="2026-02-28T15:33:54 IST" duration-ms="43802">
+      <class name="Logics.LoginLogic">
+        <test-method is-config="true" signature="AppiumSetup()[pri:0, instance:Logics.LoginLogic@2b40ff9c]" started-at="2026-02-28T15:33:10 IST" name="AppiumSetup" finished-at="2026-02-28T15:33:16 IST" duration-ms="5872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumSetup -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:Logics.LoginLogic@2b40ff9c]" started-at="2026-02-28T15:33:16 IST" name="logintest" data-provider="logindata" finished-at="2026-02-28T15:33:21 IST" duration-ms="4842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=bandavaishnavi, username=ramyaldandi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:Logics.LoginLogic@2b40ff9c]" started-at="2026-02-28T15:33:21 IST" name="logintest" data-provider="logindata" finished-at="2026-02-28T15:33:26 IST" duration-ms="5331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=bandavaishnavi, username=Bandavaishnavi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:Logics.LoginLogic@2b40ff9c]" started-at="2026-02-28T15:33:26 IST" name="logintest" data-provider="logindata" finished-at="2026-02-28T15:33:31 IST" duration-ms="5371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- Logics.LoginLogic -->
+      <class name="Logics.PageLogic">
+        <test-method is-config="true" signature="AppiumSetup()[pri:0, instance:Logics.PageLogic@70ed52de]" started-at="2026-02-28T15:33:31 IST" name="AppiumSetup" finished-at="2026-02-28T15:33:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumSetup -->
+        <test-method signature="productselection()[pri:0, instance:Logics.PageLogic@70ed52de]" started-at="2026-02-28T15:33:31 IST" name="productselection" finished-at="2026-02-28T15:33:54 IST" depends-on-methods="Logics.LoginLogic.logintest" duration-ms="22311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productselection -->
+      </class> <!-- Logics.PageLogic -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
